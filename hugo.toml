@@ -1,0 +1,20 @@
+# hugo.toml
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'My Web3 Journey'
+theme = ""
+
+[params]
+  description = "My blog and gallery about Web3"
+
+[permalinks]
+  blog = '/blog/:slug/'
+
+[build]
+  [build.buildStats]
+    enable = true
+
+# Optional: Add cachebusters config if using VSCode IntelliSense later
+# [[build.cachebusters]]
+#   source = '(postcss|tailwind)\.config\.js'
+#   target = 'css'

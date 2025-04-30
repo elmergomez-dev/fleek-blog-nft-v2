@@ -1,0 +1,5 @@
+/* assets/css/main.css */
+@import "tailwindcss";
+@source "hugo_stats.json"; /* <-- Essential for Hugo+Tailwind v4 integration */
+
+/* Your optional custom base styles can go below */

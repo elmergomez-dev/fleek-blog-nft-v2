@@ -1,0 +1,6 @@
+{{ define "main" }}
+  <h2>{{ .Title }}</h2>
+  <p>Published on: {{ .Date.Format "January 2, 2006" }}</p>
+  <div class="container mx-auto px-4 py-8"> <h2 class="text-3xl font-bold text-blue-700 mb-4">{{ .Title }}</h2> <p class="text-sm text-gray-600 mb-6">Published on: {{ .Date.Format "January 2, 2006" }}</p>
+    <div class="prose lg:prose-xl">{{ .Content }}</div> </div>
+{{ end }}
