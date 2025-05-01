@@ -2,7 +2,6 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'My Web3 Journey'
-theme = ""
 
 [params]
   description = "My blog and gallery about Web3"
