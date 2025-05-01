@@ -1,8 +1,11 @@
 # Use test-repo backend for local testing without GitHub auth setup first
 # NOTE: Changes made with test-repo are NOT saved to your Git repo.
 backend:
-  name: test-repo
-  # repo: your-username/your-repo # We'll add this later for production
+  name: github
+  repo: elmergomez-dev/fleek-blog-nft-v2
+  branch: main
+  base_url: https://my-hugo-cms-auth-proxy.elmergomez.workers.dev
+  auth_endpoint: /auth
 
 # Optional: Use local_backend for actual local file editing (requires decap-server)
 # local_backend: true
